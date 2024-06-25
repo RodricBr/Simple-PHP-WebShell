@@ -8,9 +8,9 @@ if (!empty($_POST['cmd'])) {
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/css/icone.ico" rel="icon" type="image/x-icon">
-  <link href="/css/estilo.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/icone.ico" rel="icon" type="image/x-icon">
+  <link href="css/estilo.css" rel="stylesheet" type="text/css">
   <title>WSH</title>
 </head>
 
