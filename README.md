@@ -12,8 +12,8 @@
 > **Note**
 >
 > PHP 8.1 or superior
-```console
-$ git clone https://github.com/RodricBr/Simple-PHP-WebShell
+```bash
+$ git clone https://github.com/RodricBr/sWSH
 
 # And then run on your localhost as wsh.php
 ```
