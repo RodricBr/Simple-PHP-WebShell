@@ -1,6 +1,6 @@
 <h1 align="center">sWSH</h2>
 
-<h4 align="center"><strong>sWSH é uma Webshell em PHP simples criada para ser prática e rápida e com interface limpa.</strong></h4>
+<h4 align="center"><strong>sWSH is a simple PHP Webshell created to be practical, fast and with a clean interface.</strong></h4>
 
 <p align="center">
   <img border="0" src="./.img/wsh-exp.png" alt="Example">
