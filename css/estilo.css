@@ -1,0 +1,57 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #0C0C14; /* Cor de fundo */
+}
+
+body {
+  font-family: sans-serif;
+  color: #07D100;
+}
+
+main {
+  margin: auto;
+  max-width: 850px;
+}
+
+pre,
+input,
+button {
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  color: #E6E6E6; /* Cor dos textos de input e botões*/
+  background-color: #44445c;
+}
+
+input {
+  width: 100%;
+  background-color: #44445E;
+  border: 2px solid transparent;
+}
+
+input:focus {
+  outline: none;
+  background: solid;
+  border: 2px solid #07D100;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.copy {
+  margin-left: 0px;
+}
+
+button:hover {
+  background-color: #07D100;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+}
