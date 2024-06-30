@@ -10,7 +10,7 @@
 <hr>
 
 ## - Installation
-> **Note**
+> [!NOTE]
 >
 > PHP 8.1 or superior
 ```bash
