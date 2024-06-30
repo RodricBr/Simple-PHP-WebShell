@@ -4,7 +4,7 @@
 <h4 align="center"><strong>sWSH has a basic addition for a "Copy to clipboard" button which allows the user to copy all the contents of the output to their clipboard</strong></h4>
 
 <p align="center">
-  <img border="0" src="./.img/wsh-exp.png" alt="Example">
+  <img border="0" src="./.img/wsh-example.png" alt="Example">
 </p>
 
 <hr>
