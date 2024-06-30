@@ -28,7 +28,7 @@ if (!empty($_POST['cmd'])) {
     </form>
 
     <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'): ?>
-      <h2>&lt; Output</h2>
+      <h2>&lt; Output:</h2>
       <?php if (isset($cmd)): ?>
         <pre id="output"><?= htmlspecialchars($cmd, ENT_QUOTES, 'UTF-8') ?></pre>
         <button id="copy-button" class="copy">Copiar para o clipboard</button>
