@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: sans-serif;
-  color: #07D100;
+  font-family: Consolas; /* Fonte para os textos principais (h1 e etc) */
+  color: #07D100; /* Verde dos textos principais */
 }
 
 main {
@@ -17,23 +17,26 @@ main {
 pre,
 input,
 button {
+  font-family: Consolas; /* Fonte para o output (pre) */
+  font-size: 12px; /*Tamanho da fonte do output*/
   padding: 10px;
   border-radius: 5px;
   white-space: pre-wrap;
   color: #E6E6E6; /* Cor dos textos de input e botões*/
-  background-color: #44445c;
+  background-color: #44445c; /* Cor de fundo do output e botão de executar */
 }
 
 input {
   width: 100%;
-  background-color: #44445E;
+  font-family: Consolas; /* Fonte para o input*/
+  background-color: #44445E; /* Cor do input */
   border: 2px solid transparent;
 }
 
 input:focus {
   outline: none;
   background: solid;
-  border: 2px solid #07D100;
+  border: 2px solid #07D100; /* Outline verde em volta do intput */
 }
 
 button {
@@ -46,7 +49,7 @@ button {
 }
 
 button:hover {
-  background-color: #07D100;
+  background-color: #07D100; /* Botão fica verde ao passar com o mouse por cima*/
 }
 
 .form-group {
